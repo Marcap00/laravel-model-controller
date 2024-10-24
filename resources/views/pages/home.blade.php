@@ -1,10 +1,10 @@
 @extends('layouts.app')
-@section('head-title', 'Laravel Template')
+@section('head-title', 'Laravel Movie Database')
 
 @section('main-content')
 <main>
     <div class="container">
-        <div class="row row-cols-4 g-2">
+        <div class="row row-cols-4 row-cols-sm-1 row-cols-md-2 g-2">
             @forelse ($movies as $movie)
             <div class="col my-2">
                 <div class="card">

@@ -134,3 +134,20 @@ footer {
 .row.g-5 .col {
     padding: 0 30px;
 }
+
+
+/* MEDIA QUERIES */
+
+
+
+@media screen and (max-width: 768px) {
+    .row.row-cols-md-2>* {
+        flex-basis: 50%;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .row.row-cols-sm-1>* {
+        flex-basis: 100%;
+    }
+}
