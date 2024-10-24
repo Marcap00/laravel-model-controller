@@ -17,7 +17,7 @@
                             Nazionalità: <span>{{ ucwords($movie->nationality) }}</span>
                         </p>
                         <p class="card-text">
-                            ata di uscita: <span>{{ date('d F Y', strtotime($movie->date)) }}</span>
+                            Data di uscita: <span>{{ date('d F Y', strtotime($movie->date)) }}</span>
                         </p>
                         <p class="card-text">
                             Voto: <span>{{ $movie->vote }}</span>
