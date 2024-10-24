@@ -21,7 +21,7 @@
                         </p>
                         <p class="card-text">
                             Voto: <span>{{ $movie->vote }}</span>
-                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
                         </p>
                     </div>
                 </div>
