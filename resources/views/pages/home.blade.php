@@ -3,6 +3,20 @@
 
 @section('main-content')
 <main>
-    <h1>Main</h1>
+    <div class="container">
+        <div class="row row-cols-4">
+            @forelse ($movies as $movie)
+            <div class="col">
+                <h2>{{ $movie->title }}</h2>
+                <p>{{ $movie->original_title }}</p>
+                <p>{{ $movie->nationality }}</p>
+                <p>{{ $movie->date }}</p>
+                <p>{{ $movie->vote }}</p>
+            </div>
+            @empty
+                <p>No movies available</p>
+            @endforelse
+        </div>
+    </div>
 </main>
 @endsection
