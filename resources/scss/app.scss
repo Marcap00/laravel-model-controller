@@ -65,6 +65,16 @@ footer {
     text-align: center;
 }
 
+header {
+    h1 {
+        color: #FF2D20;
+
+        span {
+            color: #fff;
+        }
+    }
+}
+
 /* LAYOUT */
 .row {
     display: flex;
